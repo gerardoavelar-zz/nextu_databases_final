@@ -1,0 +1,7 @@
+Primero se debe importar por el archivo "agenda_db.sql" con phpMyAdmin.
+Este archivo nos crea la BD agenda_db, crea sus tablas y luego pobla la tabla usuarios.
+
+Una vez importada la BD, se deben copiar los archivos de la carpeta PHP en el servidor XAMPP configurado
+
+Finalmente abrir el navegador e ir a la dirección:
+http://localhost/agenda/client/index.html
