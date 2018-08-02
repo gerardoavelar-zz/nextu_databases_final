@@ -1,0 +1,18 @@
+Para crear la Base de Datos en Mongo hay que entrar a C:\Program Files\MongoDB\Server\3.4\bin (para Windows 10 x64),
+luego abrir un terminal desde la ruta y ejecutar el comando: mongo
+
+Se carga la interfaz para ejecutar comandos, e ingresamos:
+use agenda_db
+
+Luego insertamos un usuario con el siguiente comando:
+db.usuarios.insertMany([{ email: 'gerardo@mail.com', user: "gerave", password: "123456"}, { email: 'pepe@mail.com', user: "pepe", password: "123456"}])
+
+Luego hay que ejecutar el servicio de NODE por medio del terminal, entramos a la carpeta server y ejecutamos:
+node index.js
+
+Nos aparecerá el mensaje:
+Servidor escuchando por el puerto: 3000
+Conectado a MongoDB
+
+Abrimos el navegador y escribimos:
+http://localhost:3000/index.html
